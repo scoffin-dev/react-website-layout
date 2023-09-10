@@ -1,0 +1,47 @@
+/* * * HEADER * * */
+#header-menu {
+    display: flex;
+    display: inline-block;
+    flex-basis: 50%;
+    flex-grow: 0;
+    justify-content: right;
+    padding-right: 2rem;
+    text-align: right;
+}
+
+.header-menu-tab {
+    display: inline-block;
+}
+
+.header-menu-tab.left {
+    margin-right: 0.5rem;
+}
+
+.header-menu-tab.right {
+    margin-left: 0.5rem;
+}
+
+/* * * FOOTER * * */
+
+.footer-icon {
+    height: 1.5rem;
+}
+
+.footer-icon.left {
+    margin-right: 0.25rem;
+}
+
+.footer-icon.right {
+    margin-left: 0.25rem;
+}
+
+#footer-copyright {
+    flex-basis: 50%;
+    padding-left: 2rem;
+}
+
+#footer-socials {
+    flex-basis: 50%;
+    padding-right: 2rem;
+    text-align: right;
+}

@@ -1,0 +1,108 @@
+:root {
+    --flamingo: #fc8bc0;
+    --hot-pink: #fa53a0;
+    --lagoon: #25c0c0;
+    --amber: #f3bc50; 
+}
+
+/* * * HEADER * * */
+
+#site-header {
+    align-items: center;
+    background-color: var(--hot-pink);
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    position: fixed;
+    width: 100%;
+}
+
+/* * * PAGE SPLASH * * */
+.page-splash {
+    background-image: url("./page-splash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
+    margin-top: 4rem;
+    position: relative; /* Needed for cutout text */
+    width: 100%;
+}
+
+.page-splash-text {
+    align-items: center;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    justify-content: center;
+    left: 50%;
+    margin: 0 auto;
+    mix-blend-mode: screen;
+    padding: 1rem;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page-splash-text h1 {
+    flex: 1 1 auto;
+    font-size: 5vw;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.page-splash-text p {
+    display: none;
+    font-size: 2vw;
+    margin: 0;
+}
+
+@media screen and (min-width: 1366px) {
+    .page-splash-text p {
+        display: block;
+    }
+
+    .page-splash-text {
+        height: 75%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .page-splash-text {
+        height: auto;
+    }
+}
+
+/* * * PAGE CONTENT * * */
+#main-content {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    background-color: var(--lagoon);
+    padding: 2rem;
+}
+
+.content-section {
+    align-items: center;
+    background-color: white;
+    border: 4px solid var(--amber);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.content-section h1 {
+    color: var(--hot-pink);
+    font-weight: bolder;
+}
+
+/* * * FOOTER * * */
+#site-footer  {
+    align-items: center;
+    background-color: seashell;
+    display: flex;
+    height: 2.5rem;
+}

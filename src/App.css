@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.App {
+  display: flex;
+  color: #2A2A2A;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;;
+  height: 100vh;
+}

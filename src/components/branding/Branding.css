@@ -1,0 +1,19 @@
+.site-logo {
+    align-items: center;
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 0;
+    justify-content: left;
+    padding-left: 2rem;
+}
+
+.site-logo div {
+    align-items: center;
+    background-image: url("./logo.png");
+    background-size: cover;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    position: relative;
+    width: 2rem;
+}
