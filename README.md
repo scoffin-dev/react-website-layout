@@ -1,5 +1,7 @@
 # React website layout
 
+![Website preview](./public/website-preview.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 This project provides a responsive header, footer, and main content area for a website.
