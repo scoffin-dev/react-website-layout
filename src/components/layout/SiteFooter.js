@@ -7,7 +7,7 @@ import './menus/Menu.css';
 const SiteFooter = () => {
     return (
         <div id="site-footer">
-            <p id="footer-copyright">&copy; Sondra Coffin, {new Date().getFullYear()}</p>
+            <p id="footer-copyright">&copy; scoffin-dev, {new Date().getFullYear()}</p>
             <Socials/>
         </div>
     );

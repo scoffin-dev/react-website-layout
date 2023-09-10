@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project provides a responsive header, footer, and main content area for a website.
 
+It is hosted on [scoffin-dev's GitHub](https://github.com/scoffin-dev/react-website-layout/).
+
+You can view a demo (with limited functionality) on [CodeSandbox](https://codesandbox.io/s/react-website-layout-5cn5y6?file=/src/components/layout/Layout.css).
+
 ## Getting Started with Create React App
 
 ### Available Scripts
